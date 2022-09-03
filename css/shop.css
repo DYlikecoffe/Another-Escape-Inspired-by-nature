@@ -107,6 +107,16 @@ footer img {
     zoom: 20%;
     margin-bottom: 120px;
 }
+body{
+    animation-name: example;
+    animation-duration: 0.5s;  
+    animation-fill-mode: both;
+}
+
+@keyframes example {
+    from {opacity: 0%;  }
+    to {opacity: 100%; }
+  }
 footer .col-sm-3{
     width: 25%;
 }

@@ -56,6 +56,16 @@ menu .dropdown-menu >img{
 h5 {
     font-weight: bold;
 }
+body{
+    animation-name: example;
+    animation-duration: 0.5s;  
+    animation-fill-mode: both;
+}
+
+@keyframes example {
+    from {opacity: 0%;  }
+    to {opacity: 100%; }
+  }
 /* -------------------------------------- */
 footer {
     line-height: 2.5;

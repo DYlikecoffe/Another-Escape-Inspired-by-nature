@@ -19,6 +19,16 @@ menu .navbar-brand {
 menu .navbar-header {
     width: 21%;
 }
+body{
+    animation-name: example;
+    animation-duration: 0.5s;  
+    animation-fill-mode: both;
+}
+
+@keyframes example {
+    from {opacity: 0%;  }
+    to {opacity: 100%; }
+  }
 menu {
     padding-left: 0px;
     color:rgba(0, 0, 0, 0); 

@@ -15,7 +15,16 @@ menu .navbar-brand {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 5%;
 }
+body{
+    animation-name: example;
+    animation-duration: 0.5s;  
+    animation-fill-mode: both;
+}
 
+@keyframes example {
+    from {opacity: 0%;  }
+    to {opacity: 100%; }
+  }
 menu .navbar-header {
     width: 21%;
 }
